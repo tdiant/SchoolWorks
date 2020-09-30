@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 	char str[15];
 	while(cin>>str){
-		int spaceNum = strlen(str);
+		int spaceNum = 8-strlen(str);
 		for(int i=0;i<spaceNum;i++){
 			cout<<" ";
 		}
