@@ -1,5 +1,5 @@
-#include "stdio.h"
-#include "math.h"
+#include <stdio.h>
+#include <math.h>
 
 int main(){
 	double Xa,Xb,Ya,Yb;

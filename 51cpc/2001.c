@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 int main(){
 	printf("Input 2 integers:");
 	int a,b;

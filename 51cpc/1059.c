@@ -1,5 +1,5 @@
-#include "stdio.h"
-#include "string.h"
+#include <stdio.h>
+#include <string.h>
 
 int main() {
     char str[1005], find[1005];

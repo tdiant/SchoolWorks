@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 int main(){
     int n,num,max=-2147483648,min=2147483647;

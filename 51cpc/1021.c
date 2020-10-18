@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 char getGrade(double k) {
     if (k >= 90 && k <= 100) {

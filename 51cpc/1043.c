@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 int getNineNum(int num) {
     int result = 0,src = num;

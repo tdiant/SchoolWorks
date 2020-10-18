@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 double count(int a, int b, char c);
 

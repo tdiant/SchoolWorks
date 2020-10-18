@@ -1,5 +1,5 @@
-#include "stdio.h"
-#include "string.h"
+#include <stdio.h>
+#include <string.h>
 
 int main() {
     int a = 0, e = 0, i = 0, o = 0, u = 0;

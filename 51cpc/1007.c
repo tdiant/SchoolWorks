@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 const double PI=3.14;
 int main(){

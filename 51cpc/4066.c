@@ -1,5 +1,5 @@
-#include "stdio.h"
-#include "string.h"
+#include <stdio.h>
+#include <string.h>
 
 int main(){
 	char str1[233],str2[233];

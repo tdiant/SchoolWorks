@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 int main(){
     int result = 1, n;

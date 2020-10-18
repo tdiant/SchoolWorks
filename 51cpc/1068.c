@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 int main() {
     int n, max = 0, num = 0;

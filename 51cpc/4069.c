@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 void sortq(int a[],int n){
     //insert sort

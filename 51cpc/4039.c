@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 int main() {
     int n;
     char s[10][15] = { "Monday", "Tuesday", "Wednsday", "Thursday", "Friday", "Saturday", "Sunday" };

@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 int nums[1500] = { 0 };
 

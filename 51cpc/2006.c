@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 int getMax(int a, int b, int c);
 int getMiddle(int a, int b, int c);
