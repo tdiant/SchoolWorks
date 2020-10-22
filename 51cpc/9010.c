@@ -7,20 +7,7 @@ int fuckA[66666] = { 0 }, fuckAi = 0;
 int main() {
     scanf("%s%s", str1, str2);
 
-    // find dot
-    int dotA = -1, dotB = -1;
-    for (int i = 0; i < strlen(str1); i++) {
-        if (str1[i] == '.')
-            dotA = i;
-    }
-    for (int i = 0; i < strlen(str1); i++) {
-        if (str2[i] == '.')
-            dotB = i;
-    }
-    if (dotA == -1)
-        dotA = strlen(str1);
-    if (dotB == -1)
-        dotB = strlen(str2);
+    int dotA = strlen(str1), dotB = strlen(str2);
 
     // fucking in A
     for (int i = dotA - 1; i >= 0; i--) {
