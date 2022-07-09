@@ -1,0 +1,1 @@
+INSERT INTO staffmanager.t_attend_time (staff_id, time_sec, extra_sec, absent_sec, year_month_tag) VALUES (2, 0, 6666, 0, '2021-10');

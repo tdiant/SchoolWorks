@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="net.tdiant.hnist.homework.staffmanagersystem.bean.mapper.BoardUnitMapper">
+    <select id="findAll" resultType="net.tdiant.hnist.homework.staffmanagersystem.bean.BoardUnit">
+        SELECT *
+        FROM t_board
+    </select>
+    <insert id="create" parameterType="net.tdiant.hnist.homework.staffmanagersystem.bean.BoardUnit">
+        INSERT INTO t_board(created_time, title, author_id, description)
+        VALUES (#{createdTime}, #{title}, #{authorId}, #{description})
+    </insert>
+</mapper>

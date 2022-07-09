@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="net.tdiant.hnist.homework.staffmanagersystem.bean.mapper.OrderMapper">
+    <select id="findAll" resultType="net.tdiant.hnist.homework.staffmanagersystem.bean.OrderUnit">
+        SELECT *
+        FROM t_orders
+    </select>
+    <select id="findMyselfPull" resultType="net.tdiant.hnist.homework.staffmanagersystem.bean.OrderUnit">
+        SELECT *
+        FROM t_orders
+        WHERE author_staff_id = #{id}
+    </select>
+    <select id="findByDepartment" resultType="net.tdiant.hnist.homework.staffmanagersystem.bean.OrderUnit">
+        SELECT *
+        FROM t_orders
+        WHERE department = #{target_department}
+    </select>
+    <select id="getOrder" resultType="net.tdiant.hnist.homework.staffmanagersystem.bean.OrderUnit">
+        SELECT *
+        FROM t_orders
+        WHERE id = #{id}
+    </select>
+
+    <insert id="addOrder" useGeneratedKeys="true" keyProperty="id"
+            parameterType="net.tdiant.hnist.homework.staffmanagersystem.bean.OrderUnit">
+        INSERT INTO t_orders(author_staff_id, target_department, title, details)
+        VALUES (#{authorStaffId}, #{targetDepartment}, #{title}, #{details})
+    </insert>
+</mapper>

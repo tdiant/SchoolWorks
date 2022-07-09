@@ -1,0 +1,1 @@
+INSERT INTO staffmanager.t_user_salary_settings (staff_id, internship_index, food, house, health, extra_hours, absent_hours, need_attend_hours, great_staff) VALUES (1, 0.6, 150, 0, 0, 100, 200, 8, 200);

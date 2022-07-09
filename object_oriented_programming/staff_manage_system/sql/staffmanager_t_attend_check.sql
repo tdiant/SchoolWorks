@@ -1,0 +1,2 @@
+INSERT INTO staffmanager.t_attend_check (id, staff_id, check_time, type) VALUES (5, 1, '2021-11-10 00:18:57', 1);
+INSERT INTO staffmanager.t_attend_check (id, staff_id, check_time, type) VALUES (6, 1, '2021-11-10 08:19:07', 0);
