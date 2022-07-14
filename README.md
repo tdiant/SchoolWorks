@@ -16,8 +16,8 @@
 
 # 开源内容
 
-课程名称 | 对应目录 | 老师姓名 | 开源部分 | 说明  
--|-|-|-|-
+项目名称 | 对应目录 | 老师姓名 | 开源部分 | 说明  
+-|-|-|-|- 
 程序设计基础 | 51cpc | 李老师 | 程序代码 | 本课程要求完成学校OJ系统指定数量的题目
 程序设计基础实验 | programming_fundamentals | 李老师 | 课程报告文稿 | 本课程要求完成对应的实验报告
 数据结构 | data_structure | 郭老师 | 程序代码 | 本课程要求完成指定的数据结构代码开发与实验OJ题目
@@ -33,8 +33,8 @@ Python语言程序设计(选修) | python_extra | 申老师 | 文档原稿 | 本
 项目 | 配置
 -|-
 IDE | CLion & IDEA
-OS | Windows 10 & Ubuntu(WSL2)
-Java | OpenJDK 11 & HotSpot (AdoptOpenJdk support ver)
+OS | Windows 10 & ArchLinux
+Java | Java 11 (OpenJDK & HotSpot)
 C++ | g++ (Args: g++.exe source_file.cpp -o exec_file -O2 -lm -DONLINE_JUDGE -mx32 -std=c++03)
 Python | 3
 
